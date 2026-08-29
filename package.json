@@ -1,0 +1,10 @@
+{
+  "name": "egx-smart-ai",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm run --parallel dev",
+    "build": "pnpm run --filter=client build && pnpm run --filter=server build",
+    "test": "pnpm run --filter=server test"
+  }
+}
